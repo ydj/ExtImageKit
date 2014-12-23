@@ -1,9 +1,9 @@
 //
 //  UIImage+IncreaseExt.m
-//  TestImageEx
+//  ExtImageKit
 //
 //  Created by YDJ on 14/11/26.
-//  Copyright (c) 2014年 jingyoutimes. All rights reserved.
+//  Copyright (c) 2014年 ydj. All rights reserved.
 //
 
 #import "UIImage+ExtImageKit.h"

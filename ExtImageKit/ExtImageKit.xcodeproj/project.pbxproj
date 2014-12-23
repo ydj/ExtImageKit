@@ -14,6 +14,14 @@
 		5CD0E6A41A49B8C70029E9B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0E6A31A49B8C70029E9B9 /* Images.xcassets */; };
 		5CD0E6A71A49B8C70029E9B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0E6A51A49B8C70029E9B9 /* LaunchScreen.xib */; };
 		5CD0E6B31A49B8C80029E9B9 /* ExtImageKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0E6B21A49B8C80029E9B9 /* ExtImageKitTests.m */; };
+		5CD0E6BD1A49B8E30029E9B9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD0E6BC1A49B8E30029E9B9 /* Accelerate.framework */; };
+		5CD0E6C01A49B8F50029E9B9 /* UIImage+ExtImageKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0E6BF1A49B8F50029E9B9 /* UIImage+ExtImageKit.m */; };
+		5CD0E6C21A49B90C0029E9B9 /* sa1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0E6C11A49B90C0029E9B9 /* sa1.png */; };
+		5CD0E6C41A49B96F0029E9B9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD0E6C31A49B96F0029E9B9 /* ImageIO.framework */; };
+		5CD0E6C61A49B9810029E9B9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD0E6C51A49B9810029E9B9 /* AssetsLibrary.framework */; };
+		5CD0E6C81A49B9870029E9B9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD0E6C71A49B9870029E9B9 /* MobileCoreServices.framework */; };
+		5CD0E6CB1A49BB4D0029E9B9 /* TCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0E6CA1A49BB4D0029E9B9 /* TCollectionViewCell.m */; };
+		5CD0E6CD1A49C0280029E9B9 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0E6CC1A49C0280029E9B9 /* a.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,16 @@
 		5CD0E6AC1A49B8C80029E9B9 /* ExtImageKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtImageKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD0E6B11A49B8C80029E9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CD0E6B21A49B8C80029E9B9 /* ExtImageKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtImageKitTests.m; sourceTree = "<group>"; };
+		5CD0E6BC1A49B8E30029E9B9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5CD0E6BE1A49B8F50029E9B9 /* UIImage+ExtImageKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ExtImageKit.h"; sourceTree = "<group>"; };
+		5CD0E6BF1A49B8F50029E9B9 /* UIImage+ExtImageKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ExtImageKit.m"; sourceTree = "<group>"; };
+		5CD0E6C11A49B90C0029E9B9 /* sa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sa1.png; sourceTree = "<group>"; };
+		5CD0E6C31A49B96F0029E9B9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		5CD0E6C51A49B9810029E9B9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5CD0E6C71A49B9870029E9B9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5CD0E6C91A49BB4D0029E9B9 /* TCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCollectionViewCell.h; sourceTree = "<group>"; };
+		5CD0E6CA1A49BB4D0029E9B9 /* TCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCollectionViewCell.m; sourceTree = "<group>"; };
+		5CD0E6CC1A49C0280029E9B9 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD0E6C81A49B9870029E9B9 /* MobileCoreServices.framework in Frameworks */,
+				5CD0E6C61A49B9810029E9B9 /* AssetsLibrary.framework in Frameworks */,
+				5CD0E6C41A49B96F0029E9B9 /* ImageIO.framework in Frameworks */,
+				5CD0E6BD1A49B8E30029E9B9 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,10 @@
 		5CD0E68A1A49B8C70029E9B9 = {
 			isa = PBXGroup;
 			children = (
+				5CD0E6C71A49B9870029E9B9 /* MobileCoreServices.framework */,
+				5CD0E6C51A49B9810029E9B9 /* AssetsLibrary.framework */,
+				5CD0E6C31A49B96F0029E9B9 /* ImageIO.framework */,
+				5CD0E6BC1A49B8E30029E9B9 /* Accelerate.framework */,
 				5CD0E6951A49B8C70029E9B9 /* ExtImageKit */,
 				5CD0E6AF1A49B8C80029E9B9 /* ExtImageKitTests */,
 				5CD0E6941A49B8C70029E9B9 /* Products */,
@@ -81,10 +107,16 @@
 		5CD0E6951A49B8C70029E9B9 /* ExtImageKit */ = {
 			isa = PBXGroup;
 			children = (
+				5CD0E6C11A49B90C0029E9B9 /* sa1.png */,
+				5CD0E6CC1A49C0280029E9B9 /* a.png */,
+				5CD0E6BE1A49B8F50029E9B9 /* UIImage+ExtImageKit.h */,
+				5CD0E6BF1A49B8F50029E9B9 /* UIImage+ExtImageKit.m */,
 				5CD0E69A1A49B8C70029E9B9 /* AppDelegate.h */,
 				5CD0E69B1A49B8C70029E9B9 /* AppDelegate.m */,
 				5CD0E69D1A49B8C70029E9B9 /* ViewController.h */,
 				5CD0E69E1A49B8C70029E9B9 /* ViewController.m */,
+				5CD0E6C91A49BB4D0029E9B9 /* TCollectionViewCell.h */,
+				5CD0E6CA1A49BB4D0029E9B9 /* TCollectionViewCell.m */,
 				5CD0E6A01A49B8C70029E9B9 /* Main.storyboard */,
 				5CD0E6A31A49B8C70029E9B9 /* Images.xcassets */,
 				5CD0E6A51A49B8C70029E9B9 /* LaunchScreen.xib */,
@@ -202,6 +234,8 @@
 				5CD0E6A21A49B8C70029E9B9 /* Main.storyboard in Resources */,
 				5CD0E6A71A49B8C70029E9B9 /* LaunchScreen.xib in Resources */,
 				5CD0E6A41A49B8C70029E9B9 /* Images.xcassets in Resources */,
+				5CD0E6CD1A49C0280029E9B9 /* a.png in Resources */,
+				5CD0E6C21A49B90C0029E9B9 /* sa1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD0E6C01A49B8F50029E9B9 /* UIImage+ExtImageKit.m in Sources */,
 				5CD0E69F1A49B8C70029E9B9 /* ViewController.m in Sources */,
 				5CD0E69C1A49B8C70029E9B9 /* AppDelegate.m in Sources */,
 				5CD0E6991A49B8C70029E9B9 /* main.m in Sources */,
+				5CD0E6CB1A49BB4D0029E9B9 /* TCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
